@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/sc"
+        android:title="cart"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_shopping_cart22_24">
+    </item>
+<item
+    android:id="@+id/item1"
+    android:icon="@drawable/ic_baseline_local_pizza_24"
+    android:title="PASTA"
+    app:showAsAction="never">
+</item>
+<item
+    android:id="@+id/item2"
+    android:title="PIZZA"
+    android:icon="@drawable/ic_baseline_local_pizza_24"
+    app:showAsAction="never">
+    <menu>
+        <item
+            android:id="@+id/item21"
+            android:title="VEG"
+            >
+        </item>
+        <item
+            android:id="@+id/item22"
+            android:title="NON VEG"
+            >
+        </item>
+    </menu>
+</item>
+
+</menu>
